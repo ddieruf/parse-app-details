@@ -1,0 +1,220 @@
+Retrieved Authentication Endpoint: https://login.system.cloudyaws.io
+Logged In!
+Quota Details for: default:
+ Total Memory:10240 Instance Memory: -1 Number of Routes: 1000 Number of Service Instances: 100
+Quota Details for: runaway:
+ Total Memory:102400 Instance Memory: -1 Number of Routes: 1000 Number of Service Instances: -1
+Retrieving All Organizations
+Number of Orgs: 4
+Processing Org: system
+ Using Quota : null
+Number of Users in Org system are: 3
+UserName is: push_apps_manager
+UserName is: admin
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: system
+Number of Spaces in Org system are: 5
+Processing Space Quotas
+Processing space: system using space quota: null
+Processing Apps for Space: system
+Number of apps are 10
+App Name is: app-usage-server-venerable
+App instances are: 1
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STOPPED
+App Name is: p-invitations-venerable
+App instances are: 2
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STOPPED
+App Name is: apps-manager-js-venerable
+App instances are: 6
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STOPPED
+App Name is: app-usage-scheduler-venerable
+App instances are: 1
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STOPPED
+App Name is: app-usage-worker-venerable
+App instances are: 1
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STOPPED
+App Name is: app-usage-server
+App instances are: 1
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+App Name is: apps-manager-js
+App instances are: 6
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+App Name is: p-invitations
+App instances are: 2
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+App Name is: app-usage-scheduler
+App instances are: 1
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+App Name is: app-usage-worker
+App instances are: 1
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: system
+Number of Services Instances are: 0
+Processing User Provided Services for space: system
+Processing for Space: system complete.
+Processing space: notifications-with-ui using space quota: null
+Processing Apps for Space: notifications-with-ui
+Number of apps are 2
+App Name is: notifications
+App instances are: 3
+App memory allocated is: 64
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+App Name is: notifications-ui
+App instances are: 2
+App memory allocated is: 64
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: notifications-with-ui
+Number of Services Instances are: 0
+Processing User Provided Services for space: notifications-with-ui
+Processing for Space: notifications-with-ui complete.
+Processing space: pivotal-account-space using space quota: null
+Processing Apps for Space: pivotal-account-space
+Number of apps are 2
+App Name is: pivotal-account-cold
+App instances are: 2
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STOPPED
+App Name is: pivotal-account
+App instances are: 2
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: pivotal-account-space
+Number of Services Instances are: 0
+Processing User Provided Services for space: pivotal-account-space
+Processing for Space: pivotal-account-space complete.
+Processing space: autoscaling using space quota: null
+Processing Apps for Space: autoscaling
+Number of apps are 1
+App Name is: autoscale
+App instances are: 3
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: autoscaling
+Number of Services Instances are: 0
+Processing User Provided Services for space: autoscaling
+Processing for Space: autoscaling complete.
+Processing space: nfs using space quota: null
+Processing Apps for Space: nfs
+Number of apps are 1
+App Name is: nfsbroker
+App instances are: 1
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: nfs
+Number of Services Instances are: 0
+Processing User Provided Services for space: nfs
+Processing for Space: nfs complete.
+Finished processing Organization: system
+Processing Org: test
+ Using Quota : null
+Number of Users in Org test are: 2
+UserName is: ddieruf@pivotal.io
+UserName is: pdoshi@pivotal.io
+Processing spaces in Org: test
+Number of Spaces in Org test are: 1
+Processing Space Quotas
+Processing space: test using space quota: null
+Processing Apps for Space: test
+Number of apps are 3
+App Name is: nancy-test
+App instances are: 1
+App memory allocated is: 256
+Disk quota allocated is: 64
+Build Pack is: 
+instance state is: STARTED
+App Name is: ephemerol
+App instances are: 1
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+App Name is: dataflow-server
+App instances are: 1
+App memory allocated is: 2048
+Disk quota allocated is: 2048
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: test
+Number of Services Instances are: 0
+Processing User Provided Services for space: test
+Processing for Space: test complete.
+Finished processing Organization: test
+Processing Org: workshop
+ Using Quota : null
+Number of Users in Org workshop are: 1
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: workshop
+Number of Spaces in Org workshop are: 1
+Processing Space Quotas
+Processing space: dev using space quota: null
+Processing Apps for Space: dev
+Number of apps are 1
+App Name is: build-a-workshop
+App instances are: 2
+App memory allocated is: 64
+Disk quota allocated is: 128
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: dev
+Number of Services Instances are: 0
+Processing User Provided Services for space: dev
+Processing for Space: dev complete.
+Finished processing Organization: workshop
+Processing Org: vinod
+ Using Quota : null
+Number of Users in Org vinod are: 1
+UserName is: vdsouza@pivotal.io
+Processing spaces in Org: vinod
+Number of Spaces in Org vinod are: 1
+Processing Space Quotas
+Processing space: dev using space quota: null
+Processing Apps for Space: dev
+Number of apps are 0
+Processing Space Services for: dev
+Number of Services Instances are: 0
+Processing User Provided Services for space: dev
+Processing for Space: dev complete.
+Finished processing Organization: vinod
+Processing All Organization Complete

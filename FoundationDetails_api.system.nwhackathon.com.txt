@@ -1,0 +1,1329 @@
+Retrieved Authentication Endpoint: https://login.system.nwhackathon.com
+Logged In!
+Quota Details for: default:
+ Total Memory:20480 Instance Memory: -1 Number of Routes: 1000 Number of Service Instances: 100
+Quota Details for: runaway:
+ Total Memory:102400 Instance Memory: -1 Number of Routes: 1000 Number of Service Instances: -1
+Quota Details for: redis-smoke-test-quota:
+ Total Memory:10240 Instance Memory: -1 Number of Routes: 1000 Number of Service Instances: 100
+Quota Details for: p-spring-cloud-services:
+ Total Memory:153600 Instance Memory: -1 Number of Routes: 1000 Number of Service Instances: -1
+Retrieving All Organizations
+Number of Orgs: 61
+
+Processing Org: Demo
+ Using Quota : null
+Number of Users in Org Demo are: 9
+UserName is: ralph.meira@gmail.com
+UserName is: sean.moore@nationwide.com
+UserName is: brandt.barlow@nationwide.com
+UserName is: jamie.kilgore@nationwide.com
+UserName is: andrej.kyselica@microsoft.com
+UserName is: bjimerson@pivotal.io
+UserName is: rmeira@pivotal.io
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Demo
+Number of Spaces in Org Demo are: 1
+Processing Space Quotas
+Processing space: Dev using space quota: null
+Processing Apps for Space: Dev
+Number of apps are 6
+App Name is: solar
+App instances are: 1
+App memory allocated is: 64
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: factorial
+App instances are: 1
+App memory allocated is: 64
+Disk quota allocated is: 1024
+Build Pack is: null
+instance state is: STARTED
+App Name is: hextrix
+App instances are: 1
+App memory allocated is: 64
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: spaceinvaders
+App instances are: 1
+App memory allocated is: 128
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: chess
+App instances are: 1
+App memory allocated is: 50
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: cf-spring
+App instances are: 1
+App memory allocated is: 768
+Disk quota allocated is: 1024
+Build Pack is: container-certificate-trust-store=2.0.0_RELEASE java-buildpack=v3.14-offline-https://github.com/cloudfoundry/java-buildpack.git#d5d58c6 open-jdk-like-jre=1.8.0_121 open-jdk-like-memory-calculator=2.0.2_RELEASE spring-boot-cli=1.5.1_RELEASE
+instance state is: STARTED
+Processing Space Services for: Dev
+Number of Services Instances are: 2
+Service Instance Name is: mySQL
+Service type is: managed_service_instance
+Service name is: p-mysql
+Service plan is: 100mb
+Service description is: 100MB default
+Service Instance Name is: Test
+Service type is: managed_service_instance
+Service name is: p-mysql
+Service plan is: 100mb
+Service description is: 100MB default
+App Bound to Service is: solar
+Processing User Provided Services for space: Dev
+Processing for Space: Dev complete.
+Finished processing Organization: Demo
+
+Processing Org: Pivotal
+ Using Quota : null
+Number of Users in Org Pivotal are: 8
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: rmeira@pivotal.io
+UserName is: miltj27@nationwide.com
+UserName is: guptar1@nationwide.com
+UserName is: majjiv1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Pivotal
+Number of Spaces in Org Pivotal are: 1
+Processing Space Quotas
+Processing space: demo using space quota: null
+Processing Apps for Space: demo
+Number of apps are 2
+App Name is: redirect
+App instances are: 1
+App memory allocated is: 50
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: sequence
+App instances are: 1
+App memory allocated is: 8192
+Disk quota allocated is: 1024
+Build Pack is: null
+instance state is: STARTED
+Processing Space Services for: demo
+Number of Services Instances are: 0
+Processing User Provided Services for space: demo
+Processing for Space: demo complete.
+Finished processing Organization: Pivotal
+Processing Org: * Wildcard *
+ Using Quota : null
+Number of Users in Org * Wildcard * are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: andem21@nationwide.com
+UserName is: dangn1@nationwide.com
+UserName is: davisa@nationwide.com
+UserName is: hilj11@nationwide.com
+UserName is: rothj61@nationwide.com
+UserName is: sparkc5@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: * Wildcard *
+Number of Spaces in Org * Wildcard * are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 1
+App Name is: pcfdemo
+App instances are: 1
+App memory allocated is: 512
+Disk quota allocated is: 1024
+Build Pack is: container-certificate-trust-store=2.0.0_RELEASE java-buildpack=v3.14-offline-https://github.com/cloudfoundry/java-buildpack.git#d5d58c6 open-jdk-like-jre=1.8.0_121 open-jdk-like-memory-calculator=2.0.2_RELEASE spring-auto-reconfiguration=1.10.0_RELEASE...
+instance state is: STOPPED
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: * Wildcard *
+Processing Org: 404 Error - Name not found
+ Using Quota : null
+Number of Users in Org 404 Error - Name not found are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: eckern1@nationwide.com
+UserName is: foninj@nationwide.com
+UserName is: nichob1@nationwide.com
+UserName is: ravadas1@nationwide.com
+UserName is: thephat1@nationwide.com
+UserName is: vaughn2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: 404 Error - Name not found
+Number of Spaces in Org 404 Error - Name not found are: 3
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Processing space: integration using space quota: null
+Processing Apps for Space: integration
+Number of apps are 0
+Processing Space Services for: integration
+Number of Services Instances are: 0
+Processing User Provided Services for space: integration
+Processing for Space: integration complete.
+Processing space: production using space quota: null
+Processing Apps for Space: production
+Number of apps are 0
+Processing Space Services for: production
+Number of Services Instances are: 0
+Processing User Provided Services for space: production
+Processing for Space: production complete.
+Finished processing Organization: 404 Error - Name not found
+Processing Org: All Aboard
+ Using Quota : null
+Number of Users in Org All Aboard are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: diekd24@nationwide.com
+UserName is: fullek3@nationwide.com
+UserName is: khakr30@nationwide.com
+UserName is: lilief9@nationwide.com
+UserName is: mosese3@nationwide.com
+UserName is: zengh27@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: All Aboard
+Number of Spaces in Org All Aboard are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: All Aboard
+Processing Org: Bits Please
+ Using Quota : null
+Number of Users in Org Bits Please are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: bakerd8@nationwide.com
+UserName is: carror6@nationwide.com
+UserName is: chine1@nationwide.com
+UserName is: jillian.bendt@nationwide.com
+UserName is: mcmij1@nationwide.com
+UserName is: samst2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Bits Please
+Number of Spaces in Org Bits Please are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Bits Please
+Processing Org: Bobbi & The HackStreet Boys
+ Using Quota : null
+Number of Users in Org Bobbi & The HackStreet Boys are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: bobbi.freeman@nationwide.com
+UserName is: bornhc1@nationwide.com
+UserName is: davisk81@nationwide.com
+UserName is: sticks2@nationwide.com
+UserName is: wiebek1@nationwide.com
+UserName is: willj5@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Bobbi & The HackStreet Boys
+Number of Spaces in Org Bobbi & The HackStreet Boys are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Bobbi & The HackStreet Boys
+Processing Org: Byte Army
+ Using Quota : null
+Number of Users in Org Byte Army are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: anthony.padgett@nationwide.com
+UserName is: devind1@nationwide.com
+UserName is: henryc4@nationwide.com
+UserName is: patlos1@nationwide.com
+UserName is: poojas1@nationwide.com
+UserName is: zelles2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Byte Army
+Number of Spaces in Org Byte Army are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Byte Army
+Processing Org: Chatter Bugs
+ Using Quota : null
+Number of Users in Org Chatter Bugs are: 8
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: borlanr1@nationwide.com
+UserName is: glaserj1@nationwide.com
+UserName is: morrism8@nationwide.com
+UserName is: russelr2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Chatter Bugs
+Number of Spaces in Org Chatter Bugs are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Chatter Bugs
+Processing Org: Circuit Breakers
+ Using Quota : null
+Number of Users in Org Circuit Breakers are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: demiltj1@nationwide.com
+UserName is: huntj20@nationwide.com
+UserName is: john.vick@nationwide.com
+UserName is: mcgug33@nationwide.com
+UserName is: pleskoj@nationwide.com
+UserName is: tilford@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Circuit Breakers
+Number of Spaces in Org Circuit Breakers are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Circuit Breakers
+Processing Org: Claims HardWorking Hackers
+ Using Quota : null
+Number of Users in Org Claims HardWorking Hackers are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: burchf@nationwide.com
+UserName is: geralk1@nationwide.com
+UserName is: paul.litzinger@nationwide.com
+UserName is: skunzk3@nationwide.com
+UserName is: staffod@nationwide.com
+UserName is: watsoni2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Claims HardWorking Hackers
+Number of Spaces in Org Claims HardWorking Hackers are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Claims HardWorking Hackers
+Processing Org: com.memes.jiujitsu
+ Using Quota : null
+Number of Users in Org com.memes.jiujitsu are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: isonz1@nationwide.com
+UserName is: moxlem1@nationwide.com
+UserName is: nimsun1@nationwide.com
+UserName is: simont4@nationwide.com
+UserName is: vicea1@nationwide.com
+UserName is: voliom1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: com.memes.jiujitsu
+Number of Spaces in Org com.memes.jiujitsu are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: com.memes.jiujitsu
+Processing Org: com.memes.muaythai
+ Using Quota : null
+Number of Users in Org com.memes.muaythai are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: castlj1@nationwide.com
+UserName is: bahaa38@nationwide.com
+UserName is: gulleg1@nationwide.com
+UserName is: kulbs36@nationwide.com
+UserName is: levinm4@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: com.memes.muaythai
+Number of Spaces in Org com.memes.muaythai are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: com.memes.muaythai
+Processing Org: Cool Code Cadre
+ Using Quota : null
+Number of Users in Org Cool Code Cadre are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: ramseym4@nationwide.com
+UserName is: tarltob1@nationwide.com
+UserName is: beyerp@nationwide.com
+UserName is: kucerr1@nationwide.com
+UserName is: n.krieg@nationwide.com
+UserName is: narayae2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Cool Code Cadre
+Number of Spaces in Org Cool Code Cadre are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Cool Code Cadre
+Processing Org: Creatives
+ Using Quota : null
+Number of Users in Org Creatives are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: guptar1@nationwide.com
+UserName is: majjiv1@nationwide.com
+UserName is: chuc1@nationwide.com
+UserName is: gajulh1@nationwide.com
+UserName is: loomisc@nationwide.com
+UserName is: yt1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Creatives
+Number of Spaces in Org Creatives are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 1
+App Name is: spring-demo
+App instances are: 1
+App memory allocated is: 1024
+Disk quota allocated is: 1024
+Build Pack is: container-certificate-trust-store=2.0.0_RELEASE java-buildpack=v3.14-offline-https://github.com/cloudfoundry/java-buildpack.git#d5d58c6 java-main open-jdk-like-jre=1.8.0_121 open-jdk-like-memory-calculator=2.0.2_RELEASE spring-auto-reconfiguration=1.10...
+instance state is: STARTED
+Processing Space Services for: development
+Number of Services Instances are: 1
+Service Instance Name is: testdb
+Service type is: managed_service_instance
+Service name is: p-mysql
+Service plan is: 100mb
+Service description is: 100MB default
+App Bound to Service is: spring-demo
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Creatives
+Processing Org: Ctrl Alt Del Hacker
+ Using Quota : null
+Number of Users in Org Ctrl Alt Del Hacker are: 7
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: ruk@nationwide.com
+UserName is: tahmf64@nationwide.com
+UserName is: venkatk1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Ctrl Alt Del Hacker
+Number of Spaces in Org Ctrl Alt Del Hacker are: 2
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Processing space: Integration using space quota: null
+Processing Apps for Space: Integration
+Number of apps are 0
+Processing Space Services for: Integration
+Number of Services Instances are: 0
+Processing User Provided Services for space: Integration
+Processing for Space: Integration complete.
+Finished processing Organization: Ctrl Alt Del Hacker
+Processing Org: Daemons
+ Using Quota : null
+Number of Users in Org Daemons are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: likkip@nationwide.com
+UserName is: rivea11@nationwide.com
+UserName is: tillmj4@nationwide.com
+UserName is: tobind3@nationwide.com
+UserName is: tony@nationwide.com
+UserName is: wud3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Daemons
+Number of Spaces in Org Daemons are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Daemons
+Processing Org: DataTalk
+ Using Quota : null
+Number of Users in Org DataTalk are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: chakrl2@nationwide.com
+UserName is: kleffj1@nationwide.com
+UserName is: lberke@nationwide.com
+UserName is: lcao1@nationwide.com
+UserName is: mcgek1@nationwide.com
+UserName is: yangl7@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: DataTalk
+Number of Spaces in Org DataTalk are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: DataTalk
+Processing Org: Disrupticons
+ Using Quota : null
+Number of Users in Org Disrupticons are: 12
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: vinayg1@nationwide.com
+UserName is: greg.fisher@nationwide.com
+UserName is: normaj2@nationwide.com
+UserName is: perrs2@nationwide.com
+UserName is: strouk1@nationwide.com
+UserName is: uzakc1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+UserName is: andrew.jones@nationwide.com
+UserName is: jonea23@nationwide.com
+Processing spaces in Org: Disrupticons
+Number of Spaces in Org Disrupticons are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 5
+App Name is: solar
+App instances are: 1
+App memory allocated is: 512
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: chess
+App instances are: 1
+App memory allocated is: 50
+Disk quota allocated is: 1024
+Build Pack is: php 4.3.29
+instance state is: STARTED
+App Name is: pcfdemo
+App instances are: 1
+App memory allocated is: 512
+Disk quota allocated is: 1024
+Build Pack is: container-certificate-trust-store=2.0.0_RELEASE java-buildpack=v3.14-offline-https://github.com/cloudfoundry/java-buildpack.git#d5d58c6 open-jdk-like-jre=1.8.0_121 open-jdk-like-memory-calculator=2.0.2_RELEASE spring-auto-reconfiguration=1.10.0_RELEASE...
+instance state is: STARTED
+App Name is: sparktest
+App instances are: 1
+App memory allocated is: 512
+Disk quota allocated is: 1024
+Build Pack is: null
+instance state is: STOPPED
+App Name is: disrupticon-ui
+App instances are: 1
+App memory allocated is: 512
+Disk quota allocated is: 1024
+Build Pack is: container-certificate-trust-store=2.0.0_RELEASE java-buildpack=v3.14-offline-https://github.com/cloudfoundry/java-buildpack.git#d5d58c6 java-main open-jdk-like-jre=1.8.0_121 open-jdk-like-memory-calculator=2.0.2_RELEASE spring-auto-reconfiguration=1.10...
+instance state is: STARTED
+Processing Space Services for: development
+Number of Services Instances are: 1
+Service Instance Name is: dis-rabbitmq
+Service type is: managed_service_instance
+Service name is: p-rabbitmq
+Service plan is: standard
+Service description is: Provides a multi-tenant RabbitMQ cluster
+App Bound to Service is: pcfdemo
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Disrupticons
+Processing Org: Fingers Crossed
+ Using Quota : null
+Number of Users in Org Fingers Crossed are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: muthug2@nationwide.com
+UserName is: rakatlr2@nationwide.com
+UserName is: gajjalv@nationwide.com
+UserName is: kumars71@nationwide.com
+UserName is: saginr1@nationwide.com
+UserName is: trussc1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Fingers Crossed
+Number of Spaces in Org Fingers Crossed are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Fingers Crossed
+Processing Org: Hackosauras Wrecks
+ Using Quota : null
+Number of Users in Org Hackosauras Wrecks are: 8
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: boardg1@nationwide.com
+UserName is: fortnt3@nationwide.com
+UserName is: mannes3@nationwide.com
+UserName is: shellj2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Hackosauras Wrecks
+Number of Spaces in Org Hackosauras Wrecks are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Hackosauras Wrecks
+Processing Org: Harleysville Hackers
+ Using Quota : null
+Number of Users in Org Harleysville Hackers are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: gregory.moyer@nationwide.com
+UserName is: andrew.kulick@nationwide.com
+UserName is: bertek1@nationwide.com
+UserName is: learc2@nationwide.com
+UserName is: shrevl1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Harleysville Hackers
+Number of Spaces in Org Harleysville Hackers are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 1
+App Name is: illuminate-web
+App instances are: 1
+App memory allocated is: 64
+Disk quota allocated is: 1024
+Build Pack is: 
+instance state is: STARTED
+Processing Space Services for: development
+Number of Services Instances are: 1
+Service Instance Name is: rdb
+Service type is: managed_service_instance
+Service name is: p-mysql
+Service plan is: 500mb
+Service description is: 500MB Service Plan
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Harleysville Hackers
+Processing Org: Hooli Roof Crew
+ Using Quota : null
+Number of Users in Org Hooli Roof Crew are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: chopry1@nationwide.com
+UserName is: nolana8@nationwide.com
+UserName is: ranginy1@nationwide.com
+UserName is: royerj4@nationwide.com
+UserName is: zachary.lutz@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Hooli Roof Crew
+Number of Spaces in Org Hooli Roof Crew are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Hooli Roof Crew
+Processing Org: I Am Groot
+ Using Quota : null
+Number of Users in Org I Am Groot are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: bentlm1@nationwide.com
+UserName is: j.cox@nationwide.com
+UserName is: jeffrey.holmes@nationwide.com
+UserName is: nikki@nationwide.com
+UserName is: tillmj3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: I Am Groot
+Number of Spaces in Org I Am Groot are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: I Am Groot
+Processing Org: I Hate Naming Things
+ Using Quota : null
+Number of Users in Org I Hate Naming Things are: 7
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: hansoj4@nationwide.com
+UserName is: howat1@nationwide.com
+UserName is: knowls3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: I Hate Naming Things
+Number of Spaces in Org I Hate Naming Things are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: I Hate Naming Things
+Processing Org: Innovation Terminators
+ Using Quota : null
+Number of Users in Org Innovation Terminators are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: bordrop@nationwide.com
+UserName is: conlec4@nationwide.com
+UserName is: pigmaa1@nationwide.com
+UserName is: schros3@nationwide.com
+UserName is: tim.winningham@nationwide.com
+UserName is: weic1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Innovation Terminators
+Number of Spaces in Org Innovation Terminators are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Innovation Terminators
+Processing Org: Juggling Manatees
+ Using Quota : null
+Number of Users in Org Juggling Manatees are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: ahlqvk1@nationwide.com
+UserName is: alan.thornburg@nationwide.com
+UserName is: n.engel@nationwide.com
+UserName is: rick1@nationwide.com
+UserName is: riesem1@nationwide.com
+UserName is: vyasg1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Juggling Manatees
+Number of Spaces in Org Juggling Manatees are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Juggling Manatees
+Processing Org: LoD
+ Using Quota : null
+Number of Users in Org LoD are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: congrt1@nationwide.com
+UserName is: keizerf@nationwide.com
+UserName is: leggd2@nationwide.com
+UserName is: moguls1@nationwide.com
+UserName is: regant2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: LoD
+Number of Spaces in Org LoD are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: LoD
+Processing Org: Nationwide Blue Hackets
+ Using Quota : null
+Number of Users in Org Nationwide Blue Hackets are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: chandh2@nationwide.com
+UserName is: dikemn2@nationwide.com
+UserName is: huskeyj@nationwide.com
+UserName is: reichel@nationwide.com
+UserName is: sivanl3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Nationwide Blue Hackets
+Number of Spaces in Org Nationwide Blue Hackets are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Nationwide Blue Hackets
+Processing Org: Nationwide Tailfeathers
+ Using Quota : null
+Number of Users in Org Nationwide Tailfeathers are: 6
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: perrij1@nationwide.com
+UserName is: dominic.torruellas@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Nationwide Tailfeathers
+Number of Spaces in Org Nationwide Tailfeathers are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Nationwide Tailfeathers
+Processing Org: NDF
+ Using Quota : null
+Number of Users in Org NDF are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: amina2@nationwide.com
+UserName is: bransc2@nationwide.com
+UserName is: finleyc1@nationwide.com
+UserName is: hamme1@nationwide.com
+UserName is: lomasm1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: NDF
+Number of Spaces in Org NDF are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: NDF
+Processing Org: not_it
+ Using Quota : null
+Number of Users in Org not_it are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: bryantk2@nationwide.com
+UserName is: kernc2@nationwide.com
+UserName is: leasub1@nationwide.com
+UserName is: matlod1@nationwide.com
+UserName is: shane.estep@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: not_it
+Number of Spaces in Org not_it are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: not_it
+Processing Org: Nuts & Bolts
+ Using Quota : null
+Number of Users in Org Nuts & Bolts are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: b.barth@nationwide.com
+UserName is: bulkowa@nationwide.com
+UserName is: christopher.price@nationwide.com
+UserName is: chuv1@nationwide.com
+UserName is: david.keller@nationwide.com
+UserName is: fisheg3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Nuts & Bolts
+Number of Spaces in Org Nuts & Bolts are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Nuts & Bolts
+Processing Org: NW Citizenship Outreach Engagement
+ Using Quota : null
+Number of Users in Org NW Citizenship Outreach Engagement are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: cacerb1@nationwide.com
+UserName is: craige3@nationwide.com
+UserName is: dengy1@nationwide.com
+UserName is: mcgark9@nationwide.com
+UserName is: moosas1@nationwide.com
+UserName is: shakia3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: NW Citizenship Outreach Engagement
+Number of Spaces in Org NW Citizenship Outreach Engagement are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: NW Citizenship Outreach Engagement
+Processing Org: Ouroboric Hornswogglers
+ Using Quota : null
+Number of Users in Org Ouroboric Hornswogglers are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: biggeg1@nationwide.com
+UserName is: felixd1@nationwide.com
+UserName is: meij1@nationwide.com
+UserName is: redda5@nationwide.com
+UserName is: scottl30@nationwide.com
+UserName is: swansb2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Ouroboric Hornswogglers
+Number of Spaces in Org Ouroboric Hornswogglers are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Ouroboric Hornswogglers
+Processing Org: Quick Learners
+ Using Quota : null
+Number of Users in Org Quick Learners are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: blackr3@nationwide.com
+UserName is: hodgea6@nationwide.com
+UserName is: matt.pittsenbarger@nationwide.com
+UserName is: ryled2@nationwide.com
+UserName is: welsha3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Quick Learners
+Number of Spaces in Org Quick Learners are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Quick Learners
+Processing Org: Rainbow Kitty Sprinkles
+ Using Quota : null
+Number of Users in Org Rainbow Kitty Sprinkles are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: creamm1@nationwide.com
+UserName is: gregory.wilson@nationwide.com
+UserName is: meyej8@nationwide.com
+UserName is: roberj31@nationwide.com
+UserName is: shillb3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Rainbow Kitty Sprinkles
+Number of Spaces in Org Rainbow Kitty Sprinkles are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Rainbow Kitty Sprinkles
+Processing Org: Raviga Capital
+ Using Quota : null
+Number of Users in Org Raviga Capital are: 8
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: buschd1@nationwide.com
+UserName is: chengy1@nationwide.com
+UserName is: clard3@nationwide.com
+UserName is: nizams3@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Raviga Capital
+Number of Spaces in Org Raviga Capital are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Raviga Capital
+Processing Org: Robot Overlord Appreciation Society
+ Using Quota : null
+Number of Users in Org Robot Overlord Appreciation Society are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: burryd1@nationwide.com
+UserName is: hainem1@nationwide.com
+UserName is: simmog1@nationwide.com
+UserName is: summerd2@nationwide.com
+UserName is: suranc1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Robot Overlord Appreciation Society
+Number of Spaces in Org Robot Overlord Appreciation Society are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Robot Overlord Appreciation Society
+Processing Org: Ruby Miners
+ Using Quota : null
+Number of Users in Org Ruby Miners are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: bolanoi@nationwide.com
+UserName is: gartc34@nationwide.com
+UserName is: masona8@nationwide.com
+UserName is: samglockner@nationwide.com
+UserName is: wangh10@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Ruby Miners
+Number of Spaces in Org Ruby Miners are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Ruby Miners
+Processing Org: Rusty Buckets
+ Using Quota : null
+Number of Users in Org Rusty Buckets are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: conlej1@nationwide.com
+UserName is: konenih1@nationwide.co
+UserName is: michad1@nationwide.com
+UserName is: neffs2@nationwide.com
+UserName is: odonnd1@nationwide.com
+UserName is: patthv1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Rusty Buckets
+Number of Spaces in Org Rusty Buckets are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Rusty Buckets
+Processing Org: Seer Suckers
+ Using Quota : null
+Number of Users in Org Seer Suckers are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: boldizd@nationwide.com
+UserName is: chur2@nationwide.com
+UserName is: coenf1@nationwide.com
+UserName is: freibej1@nationwide.com
+UserName is: gadviv2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Seer Suckers
+Number of Spaces in Org Seer Suckers are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Seer Suckers
+Processing Org: SenseSationals
+ Using Quota : null
+Number of Users in Org SenseSationals are: 9
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: alex.smith@nationwide.com
+UserName is: bella21@nationwide.com
+UserName is: blevins@nationwide.com
+UserName is: bornmd1@nationwide.com
+UserName is: craigr2@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: SenseSationals
+Number of Spaces in Org SenseSationals are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: SenseSationals
+Processing Org: Skillz for Dayz
+ Using Quota : null
+Number of Users in Org Skillz for Dayz are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: heided1@nationwide.com
+UserName is: mariai2@nationwide.com
+UserName is: michael.mcbride@nationwide.com
+UserName is: peterj3@nationwide.com
+UserName is: westlm1@nationwide.com
+UserName is: wolfa12@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Skillz for Dayz
+Number of Spaces in Org Skillz for Dayz are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Skillz for Dayz
+Processing Org: Space Walrus
+ Using Quota : null
+Number of Users in Org Space Walrus are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: coatsn@nationwide.com
+UserName is: hardyr7@nationwide.com
+UserName is: jason.coyan@nationwide.com
+UserName is: mitsuia1@nationwide.com
+UserName is: shaykog@nationwide.com
+UserName is: spenoj@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Space Walrus
+Number of Spaces in Org Space Walrus are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Space Walrus
+Processing Org: Statusphere
+ Using Quota : null
+Number of Users in Org Statusphere are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: boyere3@nationwide.com
+UserName is: kazia1@nationwide.com
+UserName is: nataram4@nationwide.com
+UserName is: pothug2@nationwide.com
+UserName is: rasue12@nationwide.com
+UserName is: rymonl1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Statusphere
+Number of Spaces in Org Statusphere are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Statusphere
+Processing Org: Still Too Cavalier
+ Using Quota : null
+Number of Users in Org Still Too Cavalier are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: akersd9@nationwide.com
+UserName is: dullac@nationwide.com
+UserName is: husseym1@nationwide.com
+UserName is: mccartb1@nationwide.com
+UserName is: sellmaa@nationwide.com
+UserName is: zupancb@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Still Too Cavalier
+Number of Spaces in Org Still Too Cavalier are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Still Too Cavalier
+Processing Org: Team Rampage
+ Using Quota : null
+Number of Users in Org Team Rampage are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: jiract1@nationwide.com
+UserName is: kistens@nationwide.com
+UserName is: lewin11@nationwide.com
+UserName is: paytonj@nationwide.com
+UserName is: prayr1@nationwide.com
+UserName is: smitm48@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Team Rampage
+Number of Spaces in Org Team Rampage are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Team Rampage
+Processing Org: Technical Sharks
+ Using Quota : null
+Number of Users in Org Technical Sharks are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: acapulj@nationwide.com
+UserName is: ayersa9@nationwide.com
+UserName is: castlej6@nationwide.com
+UserName is: grewalj@nationwide.com
+UserName is: jonej22@nationwide.com
+UserName is: marklej1@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Technical Sharks
+Number of Spaces in Org Technical Sharks are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Technical Sharks
+Processing Org: Tesla’s Drunk Uncle
+ Using Quota : null
+Number of Users in Org Tesla’s Drunk Uncle are: 10
+UserName is: admin
+UserName is: bjimerson@pivotal.io
+UserName is: ashok.bamrotiya@nationwide.com
+UserName is: darlinm3@nationwide.com
+UserName is: keith.caldwell@nationwide.com
+UserName is: meyerc4@nationwide.com
+UserName is: weidnep1@nationwide.com
+UserName is: whitem16@nationwide.com
+UserName is: mtimmers@pivotal.io
+UserName is: ddieruf@pivotal.io
+Processing spaces in Org: Tesla’s Drunk Uncle
+Number of Spaces in Org Tesla’s Drunk Uncle are: 1
+Processing Space Quotas
+Processing space: development using space quota: null
+Processing Apps for Space: development
+Number of apps are 0
+Processing Space Services for: development
+Number of Services Instances are: 0
+Processing User Provided Services for space: development
+Processing for Space: development complete.
+Finished processing Organization: Tesla’s Drunk Uncle
+Processing All Organization Complete
