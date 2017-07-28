@@ -200,11 +200,11 @@ def parseServiceInstance(startLineNum, endLineNum):
   
   return serviceInstance(instanceName, serviceType, serviceName, plan, description)
 
-def parseFile(inputFile, outputFile):
+def parseFile(inFile, outFile):
   global filePath
   global outputFile
-  filePath = inputFile
-  outputFile = outputFile
+  filePath = inFile
+  outputFile = outFile
 
   parseEndpoint()
   parseQuotas()
