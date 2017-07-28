@@ -235,5 +235,5 @@ def exportToCSV():
           w.writerow([data["endpoint"],org.name,space.name,app.name, app.instanceCount,app.memory,app.diskQuota,app.buildpack,app.state])
 
 if __name__ == "__main__":
-  parseFile("FoundationDetails_api.system.nwhackathon.com.txt")
+  parseFile("FoundationDetails_api.system.nwhackathon.com.txt", "export.csv")
   exportToCSV()

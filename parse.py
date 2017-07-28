@@ -7,6 +7,7 @@ parser.add_argument('outputFile', help='The foundation details txt')
 args = parser.parse_args()
 
 if __name__ == "__main__":
-  print "Parsing file \"" + args.file + "\""
+  print "Parsing file \"" + args.inputFile + "\""
   fileParser.parseFile(args.inputFile, args.outputFile)
+  print "Outputting to \"" + args.outputFile + "\""
   fileParser.exportToCSV()
