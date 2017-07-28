@@ -16,6 +16,7 @@ data = {
   "orgs":[]
 }
 filePath = ""
+outputFile = ""
 
 def searchFileLines(searchCollection):
   global filePath
@@ -199,9 +200,11 @@ def parseServiceInstance(startLineNum, endLineNum):
   
   return serviceInstance(instanceName, serviceType, serviceName, plan, description)
 
-def parseFile(file_path):
+def parseFile(inputFile, outputFile):
   global filePath
-  filePath = file_path
+  global outputFile
+  filePath = inputFile
+  outputFile = outputFile
 
   parseEndpoint()
   parseQuotas()
@@ -214,22 +217,22 @@ def parseFile(file_path):
   #print pp.pprint(data)
 
 def exportToCSV():
-  with open('export.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+  with open(outputFile, 'wb') as f:  # Just use 'w' mode in 3.x
     w = csv.writer(f,delimiter=',', quotechar='\"', quoting=csv.QUOTE_MINIMAL)
-    w.writerow(["Org","Space","App","Instance Count","Memory","Disk Quota","Buildpack","State"])
+    w.writerow(["Endpoint", "Org","Space","App","Instance Count","Memory","Disk Quota","Buildpack","State"])
 
     for org in data["orgs"]:
       if(len(org.spaces) == 0):
-        w.writerow([org.name])
+        w.writerow([data["endpoint"],org.name])
         continue
 
       for space in org.spaces:
         if(len(space.apps) == 0):
-          w.writerow([org.name, space.name])
+          w.writerow([data["endpoint"],org.name, space.name])
           continue
 
       for app in space.apps:
-          w.writerow([org.name,space.name,app.name, app.instanceCount,app.memory,app.diskQuota,app.buildpack,app.state])
+          w.writerow([data["endpoint"],org.name,space.name,app.name, app.instanceCount,app.memory,app.diskQuota,app.buildpack,app.state])
 
 if __name__ == "__main__":
   parseFile("FoundationDetails_api.system.nwhackathon.com.txt")
